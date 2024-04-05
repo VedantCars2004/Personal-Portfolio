@@ -44,27 +44,27 @@ const ProfilePage = () => {
                </div>
                <div className='experience'>
                    <h2>Work Experience</h2>
-                   <h3>Course Assistant for CS124- University of Illinois</h3><p>January 2024- Present</p>
+                   <h3>Course Assistant for CS124- University of Illinois</h3>
+                   <ul><li>January 2024- Present</li></ul>
                    <p>CA for a class of 3800+ students. Assisted students in mastering Java, strengthened their grasp of Java as an object-oriented language,
           including client-server concepts, various APIs, Android Studio, algorithms, data structures, inheritance, polymorphism, etc.
                    </p>
                    <br></br>
                    <h3>Freelancer: Website Design</h3>
-                   <p>May 2022- Present</p>
+                   <ul><li>May 2022- Present</li></ul>
                    <p>Utilized my React, HTML, and CSS skills to help local businesses grow by 18% by designing websites for businesses such as a lawn maintenance business,
               a consulting firm, and for my own tutoring services.
                    </p>
                    <br></br>
                    <h3>Vedant's Tutoring</h3>
-                   <p>May 2023- Present</p>
-                   <p>Gained responsibility and self confidence through self initiated math/ SAT private tutoring for local community and international students.
-          Leveraged my proficiency in Math and a SAT score of 1530 to assist students in enhancing their SAT scores by up to 140+ points and mastering Math,
-          thereby boosting their prospects for admission into prestigious universities and strengthening their mathematical capabilities.
+                   <ul><li>May 2023- Present</li></ul>
+                   <p>Self initiated math/ SAT private tutoring for local community and international students.
+          Leveraged my proficiency in Math and a SAT score of 1530 to assist students in enhancing their SAT scores by up to 140+ points and mastering Math.
                    </p>
                    <br></br>
                    <h3>Mathnasium</h3>
-                   <p>November 2022- July 2023</p>
-                   <p>Math Instructor for students K-1   2. Employed my strong mathematical background and teaching experience to improve students' mathematical proficiency
+                   <ul><li>November 2022- July 2023</li></ul>
+                   <p>Math Instructor for students K-12. Teaching experience in improving students' mathematical proficiency
            and confidence. Enhanced leadership and time management skills by teaching multiple students together.
                    </p>
                </div>
@@ -129,17 +129,20 @@ const ProfilePage = () => {
                        <li>C++</li>
                        <li>Javascript</li>
                    </ul>
+                   <br></br>
                    <h3>Frontend Development</h3>
                    <ul>
                        <li>React</li>
                        <li>HTML</li>
                        <li>CSS</li>
                    </ul>
+                   <br></br>
                    <h3>Data Management</h3>
                    <ul>
                        <li>Python</li>
                        <li>SQL</li>
                    </ul>
+                   <br></br>
                    <h3>Theory</h3>
                    <ul>
                        <li>Discrete Structures</li>
