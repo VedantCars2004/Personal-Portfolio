@@ -148,6 +148,11 @@ body {
     box-shadow: 0px 2px 2px rgba(245, 253, 1, 0.473);
     border: 1px solid #929292;
   }
+
+  a:visited {
+    color: inherit; /* or specify your desired color */
+    text-decoration: none; /* or specify your desired text decoration */
+  }
 /* projects page code */
   
 .projects-container {
@@ -427,9 +432,11 @@ body {
 
 .project-boxes {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   font-family: 'Roboto Mono', monospace;
+  gap: 20px; /* Adds a gap of 20px between the boxes */
 }
 
 .project-box {
@@ -451,7 +458,16 @@ body {
   box-shadow: 0px 8px 8px rgba(245, 253, 1, 0.473);
 }
 
-.project-box h3 {
+.project-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: 'Roboto Mono', monospace;
+  gap: 20px; /* Adds a gap of 20px between the boxes */
+}
+
+.project-list h3 {
   color: #FFD700;
   line-height: 1.5;
   font-size: 15;
@@ -459,13 +475,13 @@ body {
   text-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
 }
 
-.project-box ul {
+.project-list ul {
   list-style-type: none;
   padding: 0;
   margin-bottom: 10px;
 }
 
-.project-box a {
+.project-list a {
   display: inline-block;
   font-family: 'Courier New', Courier, monospace;
   background-color: #2b334a;
@@ -477,7 +493,7 @@ body {
   transition: 0.3s;
 }
 
-.project-box a:hover {
+.project-list a:hover {
   transform: scale(1.05);
   box-shadow: 0px 2px 2px rgba(245, 253, 1, 0.473);
   border: 1.5px solid white;

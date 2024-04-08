@@ -98,8 +98,7 @@ const ProfilePage = () => {
                        <li>Javascript</li>
                    </ul>
                    <br></br>
-                   <h3>Quick Projects</h3>
-                   <Link to="/projects"><h3>Quick Projects</h3></Link>
+                   <Link to="/projects"><h3>Quick Projects ↗</h3></Link>
                    <p>Small scale projects made in C++ and Java that perform tasks such as seam carving an image or finding the
                        easiest path over a mountain using input of elevation data.
                    </p>

@@ -1,0 +1,37 @@
+[
+    {
+      "name": "UIUC Courses App",
+      "description": "A Java project that combines server/client integration in Android Studio. Sorts and allows searching of classes offered at UIUC.",
+      "repositoryLink": "https://github.com/cs124-illinois-students/MP-Fall2023-java-VedantCars2004"
+    },
+    {
+      "name": "Hawaiian Words",
+      "description": "Translation app that writes out the pronunciation of any given Hawaiian word; made with C++.",
+      "repositoryLink": "https://github.com/cs128-2024a/mp-1-hawaiian-words-VedantCars2004"
+    },
+    {
+        "name" : "Volunteer Group Builder",
+        "description" : "Given a set of volunteers with certain capabilities such as stamina, this program makes groups of volunteers so that every group has an almost equal capabilities build.",
+        "repositoryLink" : "https://github.com/cs128-2024a/mp-2-volunteer-group-builder-VedantCars2004"
+    },
+    {
+        "name" : "Mountain Paths",
+        "description" : "Given an elevation data file, this program finds the easiest mountain path to take to get across the mountain",
+        "repositoryLink" : "https://github.com/cs128-2024a/mp-3-mountain-paths-VedantCars2004"
+    },
+    {
+        "name": "Seam Carving",
+        "description": "There are so many ways to crop an image, but seam carving is the optimal solution as you don't lose out on any of the subject matter-ever.",
+        "repositoryLink": "https://github.com/cs128-2024a/mp-4-seam-carving-VedantCars2004"
+    },
+    {
+        "name" : "Naive Database",
+        "description":"A simple yet functional database that is made up of tables, and easily can add and remove elements with effortless size management.",
+        "repositoryLink" : "https://github.com/cs128-2024a/mp-5-naive-db-VedantCars2004"
+    },
+    {
+        "name": "Cord Binary Trees",
+        "description" : "In Progress...",
+        "repositoryLink" : "https://github.com/cs128-2024a/mp-6-cord-VedantCars2004"
+    }
+  ]

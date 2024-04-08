@@ -1,13 +1,14 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
+import projectsData from './projects.json';
+
 const ProjectsPage = () => {
   const [projects, setProjects] = useState([]);
+
   useEffect(() => {
-    fetch('QuickProjects.JSON')
-      .then(response => response.json())
-      .then(data => setProjects(data))
-      .catch(error => console.error('Error fetching projects:', error));
+    document.title = 'Vedant Gohel - Quick Projects';
+    setProjects(projectsData);
   }, []);
 
   return (
@@ -18,16 +19,19 @@ const ProjectsPage = () => {
       <div className="intro-box">
         <h2>Quick Projects</h2>
       </div>
-      <div className="project-boxes">
+      <div className="project-list">
         {projects.map((project, index) => (
-          <div className="project-box" key={index}>
-            <h3>{project.title}</h3>
+          <div key={index} className="project-box">
+            <h3>{project.name}</h3>
             <p>{project.description}</p>
-            <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
-              GitHub Repository
+            <br></br>
+            <a href={project.repositoryLink} target="_blank" rel="noopener noreferrer">
+              Repository Link
             </a>
           </div>
+       
         ))}
+        
       </div>
     </div>
   );
