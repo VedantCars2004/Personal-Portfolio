@@ -3,9 +3,14 @@ import LinkedinLogo from './Assets/linkedin_logo.png';
 import GithubLogo from './Assets/github_logo.png';
 import EmailLogo from './Assets/email_logo.png';
 import HandshakeLogo from './Assets/handshake_logo.png';
+import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 
 const ProfilePage = () => {
+    useEffect(() => {
+        document.title = 'Vedant Gohel';
+    }, []); 
    return (
        <div className='profile-container'>
            <div className='profile-info'>
@@ -94,6 +99,7 @@ const ProfilePage = () => {
                    </ul>
                    <br></br>
                    <h3>Quick Projects</h3>
+                   <Link to="/projects"><h3>Quick Projects</h3></Link>
                    <p>Small scale projects made in C++ and Java that perform tasks such as seam carving an image or finding the
                        easiest path over a mountain using input of elevation data.
                    </p>
