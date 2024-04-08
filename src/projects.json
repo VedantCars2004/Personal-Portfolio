@@ -6,7 +6,7 @@
     },
     {
       "name": "Hawaiian Words",
-      "description": "Translation app that writes out the pronunciation of any given Hawaiian word; made with C++.",
+      "description": "Translation app that writes out the pronunciation of any given Hawaiian word and checks for valid/ invalid words.",
       "repositoryLink": "https://github.com/cs128-2024a/mp-1-hawaiian-words-VedantCars2004"
     },
     {
