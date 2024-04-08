@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './App.css';
-
 const ProjectsPage = () => {
+  const [projects, setProjects] = useState([]);
+  useEffect(() => {
+    fetch('QuickProjects.JSON')
+      .then(response => response.json())
+      .then(data => setProjects(data))
+      .catch(error => console.error('Error fetching projects:', error));
+  }, []);
+
   return (
     <div className="projects-container">
       <div className="back-link">
@@ -12,25 +19,15 @@ const ProjectsPage = () => {
         <h2>Quick Projects</h2>
       </div>
       <div className="project-boxes">
-        <div className="project-box">
-          <h3>Project Title 1</h3>
-          <br></br>
-          <p>Project description goes here...</p>
-          <br></br>
-          <a href="https://github.com/your-username/project-repo-1" target="_blank" rel="noopener noreferrer">
-            GitHub Repository
-          </a>
-        </div>
-        <div className="project-box">
-          <h3>Project Title 2</h3>
-          <br></br>
-          <p>Project description goes here...</p>
-          <br></br>
-          <a href="https://github.com/your-username/project-repo-2" target="_blank" rel="noopener noreferrer">
-            GitHub Repository
-          </a>
-        </div>
-        {/* Add more project boxes as needed */}
+        {projects.map((project, index) => (
+          <div className="project-box" key={index}>
+            <h3>{project.title}</h3>
+            <p>{project.description}</p>
+            <a href={project.githubLink} target="_blank" rel="noopener noreferrer">
+              GitHub Repository
+            </a>
+          </div>
+        ))}
       </div>
     </div>
   );
