@@ -163,13 +163,19 @@ body {
 }
 
 .intro-box {
-  background-color: #00334d;
-  font-family: 'Roboto Mono', monospace;
-  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+  flex-basis: 100%;
+  border: 2px solid #FFD700; 
   padding: 20px;
-  border : 1px solid white;
-  border-radius: 5px;
-  margin-bottom: 20px;
+  border-radius: 10px; 
+  background-image: url('./Assets/profile-info-background.jpg');
+  background-size: flex;
+  background-position: center;
+  background-attachment: fixed;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgb(0, 0, 0);
+  width: 90%;
 }
 
 .project-boxes {
@@ -409,7 +415,14 @@ body {
   padding: 20px;
   border : 1px solid white;
   border-radius: 5px;
+  font-size: 20px;
   margin-bottom: 20px;
+  border-color: #FFD700;
+}
+
+.intro-box:hover {
+  border-color: white;
+  transition: 0.5;
 }
 
 .project-boxes {
@@ -421,7 +434,7 @@ body {
 
 .project-box {
   font-family: 'Roboto Mono', monospace;
-  background-color: #00334d;
+  background-color: #0f1a2f;
   color: #fff;
   padding: 20px;
   border-radius: 5px;
@@ -439,8 +452,11 @@ body {
 }
 
 .project-box h3 {
-  margin-top: 0;
+  color: #FFD700;
+  line-height: 1.5;
+  font-size: 15;
   font-family: 'Roboto Mono', monospace;
+  text-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
 }
 
 .project-box ul {
