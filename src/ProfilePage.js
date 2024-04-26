@@ -73,6 +73,12 @@ const ProfilePage = () => {
            and confidence. Enhanced leadership and time management skills by teaching multiple students together.
                    </p>
                </div>
+               <div className='gis-projects'>
+                    <h2>GIS Projects</h2>
+                    <h3><a href="https://storymaps.arcgis.com/stories/cb7e27c3c8734e9aa2c0fe6358040810" target="_blank" rel="noopener noreferrer">ArcGIS Online and Pro Projects Portfolio ↗</a></h3>
+                    <p>This portfolio shows my GIS Cartography work including layouts such as figure and standalone layouts, infographics, digital elevation models, point clouds,
+                         open data and ArcGIS Field maps, and Georeferencing.</p>
+                </div>
            </div>
 
 
