@@ -90,7 +90,9 @@ const ProfilePage = () => {
                        <li>Javascript</li>
                    </ul>
                    <br></br>
-                   <h3>(In Work): Tutoring Website</h3>
+                   <h3>Vedant's Tutoring: Private Tutoring Website</h3>
+                   <p>Created a private tutoring website for myself which connects new parents to my course offerings and information about sessions. Used React, HTML, CSS, JS. 
+                    Features new UI design such as cards and AUTOMATED email creation submission upon filling contact form.</p>
                    <ul>
                        <li>React</li>
                        <li>HTML</li>
