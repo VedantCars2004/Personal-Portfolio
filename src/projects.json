@@ -16,7 +16,7 @@
     },
     {
         "name" : "Mountain Paths",
-        "description" : "Given an elevation data file, this program finds the easiest mountain path to take to get across the mountain",
+        "description" : "Given an elevation data file, this program finds the easiest mountain path to take to get across any mountain.",
         "repositoryLink" : "https://github.com/cs128-2024a/mp-3-mountain-paths-VedantCars2004"
     },
     {
@@ -31,7 +31,12 @@
     },
     {
         "name": "Cord Binary Trees",
-        "description" : "In Progress...",
+        "description" : "A specific type of binary tree that stores strings and multiple operations such as concatenation can be performed upon.",
+        "repositoryLink" : "https://github.com/cs128-2024a/mp-6-cord-VedantCars2004"
+    },
+    {
+        "name": "Illini Book",
+        "description" : "A simple social media network graph project, where people are related based on a certain relationship that they share with each other.",
         "repositoryLink" : "https://github.com/cs128-2024a/mp-6-cord-VedantCars2004"
     }
   ]

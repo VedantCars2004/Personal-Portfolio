@@ -18,6 +18,7 @@ const ProjectsPage = () => {
       </div>
       <div className="intro-box">
         <h2>Quick Projects</h2>
+        <p>Contact vedantuiuc@gmail.com for any repository links.</p>
       </div>
       <div className="project-list">
         {projects.map((project, index) => (
@@ -25,9 +26,9 @@ const ProjectsPage = () => {
             <h3>{project.name}</h3>
             <p>{project.description}</p>
             <br></br>
-            <a href={project.repositoryLink} target="_blank" rel="noopener noreferrer">
+            {/* <a href={project.repositoryLink} target="_blank" rel="noopener noreferrer">
               Repository Link
-            </a>
+            </a> */}
           </div>
        
         ))}

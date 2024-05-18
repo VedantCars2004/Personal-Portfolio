@@ -106,6 +106,17 @@ const ProfilePage = () => {
                        <li>Javascript</li>
                    </ul>
                    <br></br>
+                   
+                   <Link to="https://github.com/VedantCars2004/Word3T"><h3>Word 3T ↗</h3></Link>
+                   <p>A twist on the classic game Tic Tac Toe, created using Java in Android Studio. Played
+                    with words instead of Xs and Os, two players go head to head to see who can create a line of
+                    words that have atleast one letter in common. 
+                   </p>
+                   <ul>
+                       <li>Java</li>
+                       <li>Android Studio</li>
+                   </ul>
+                   <br></br>
                    <Link to="/projects"><h3>Quick Projects ↗</h3></Link>
                    <p>Small scale projects made in C++ and Java that perform tasks such as seam carving an image or finding the
                        easiest path over a mountain using input of elevation data.
