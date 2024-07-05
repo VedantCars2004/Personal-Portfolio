@@ -1,0 +1,61 @@
+{
+    "softwareEngineering": [
+      {
+        "title": "(In Progress)- Budget App with Cryptocurrency Tracking",
+        "link": "",
+        "description": "Working on a group project to create a Java budgeting application with Cryptocurrency tracking. App gives insights into your spendings and savings, through APIs such as JFreeChart and Bitquery",
+        "skills": ["Java","Java APIs", "Data Structures", "Bitquery", "JFreeChart", "Android Studio"]
+      },
+      {
+        "title": "Word 3T",
+        "link": "https://github.com/VedantCars2004/Word3T",
+        "description": "A twist on the classic game Tic Tac Toe, created using Java in Android Studio. Played with words instead of Xs and Os, two players go head to head to see who can create a line of words that have at least one letter in common.",
+        "skills": ["Java", "Android Studio"]
+      },
+      {
+        "title": "Quick Projects",
+        "link": "/projects",
+        "description": "Small scale projects made in C++ and Java that perform tasks such as seam carving an image or finding the easiest path over a mountain using input of elevation data.",
+        "skills": ["C++", "Java"]
+      }
+    ],
+    "webDevelopment": [
+      {
+        "title": "Personal Portfolio Website",
+        "description": "Deployed my web development skills to create a personal portfolio showcasing my classroom and extracurricular projects in addition to a portfolio of my skills and knowledge. Utilized VSCode, Github, and Netlify to build and host this project.",
+        "skills": ["React", "HTML", "CSS", "Javascript"]
+      },
+      {
+        "title": "Vedant's Tutoring: Private Tutoring Website",
+        "description": "Created a private tutoring website for myself which connects new parents to my course offerings and information about sessions. Used React, HTML, CSS, JS. Features new UI design such as cards and AUTOMATED email creation submission upon filling contact form.",
+        "skills": ["React", "HTML", "CSS", "Javascript"]
+      },
+      {
+        "title": "Freelancing Website for Consulting Business",
+        "description": "Created this website as a request from a consulting business to grow their startup. In addition to a third party software, used HTML and CSS to design elements for the website.",
+        "skills": ["3rd Party Software", "HTML", "CSS"]
+      },
+      {
+        "title": "Freelancing Website for Lawn Maintenance Business",
+        "description": "Crafted this website to help reachability of this local lawn care service in our community.",
+        "skills": ["3rd Party Software", "HTML", "CSS"]
+      }
+    ],
+    "gis": [
+      {
+        "title": "ArcGIS Online and Pro Projects Portfolio",
+        "link": "https://storymaps.arcgis.com/stories/cb7e27c3c8734e9aa2c0fe6358040810",
+        "description": "This portfolio shows my GIS Cartography work including layouts such as figure and standalone layouts, infographics, digital elevation models, point clouds, open data and ArcGIS Field maps, and Georeferencing."
+      }
+    ],
+    "ai": [
+      { 
+        "title": "Stock High Price Predictor with AI",
+      "description": "Used artificial recurrent neural network; fed data from the past 12 years to predict a firm’s high stock price used Python and libraries such as NumPy, TensorFlow, and Keras.",
+      "skills": ["Python", "TensorFlow", "Keras", "Application Programming Interfaces (API)", "Python Libraries", "Artificial Intelligence (AI)]"]},
+      { 
+        "title": "eCarBot (Artificial Intelligence)",
+      "description": "Built a prompt engineering AI Bot which parses huge articles through web scraping about electric cars. Allows users to ask questions to the bot, which it answers by indexing sentences and finding relevant lines.",
+      "skills": ["Python (Programming Language)", "Web Scraping", "Artificial Intelligence (AI)"]
+}]
+  }
