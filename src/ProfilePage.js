@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+
 import LinkedinLogo from './Assets/linkedin_logo.png';
 import GithubLogo from './Assets/github_logo.png';
 import EmailLogo from './Assets/email_logo.png';
