@@ -20,7 +20,7 @@ body {
     text-align: center;
     margin-bottom: 40px;
     flex-basis: 100%;
-    border: 2px solid #FFD700; 
+    border: 2px solid #9dff00cd; 
     padding: 20px;
     border-radius: 10px; 
     background-image: url('./Assets/profile-info-background.jpg');
@@ -109,7 +109,7 @@ body {
     font-size: 24px;
     margin-bottom: 20px;
     font-family: 'Roboto Mono', monospace;
-    color: #FFD700;
+    color: #9dff00cd;
   }
   
   .sections-left h3, .sections-right h3 {
@@ -138,14 +138,14 @@ body {
     background-color: #2b334a;
     padding: 5px 12px;
     border-radius: 5px;
-    color: #FFD700;
+    color: #9dff00cd;
     font-weight: bold;
     transition: transform 0.5s ease;
   }
   
   .sections-left li:hover, .sections-right li:hover {
     transform: scale(1.05);
-    box-shadow: 0px 2px 2px rgba(245, 253, 1, 0.473);
+    box-shadow: 0px 2px 2px #9dff00cd;
     border: 1px solid #929292;
   }
 
@@ -171,7 +171,7 @@ body {
   text-align: center;
   margin-bottom: 40px;
   flex-basis: 100%;
-  border: 2px solid #FFD700; 
+  border: 2px solid #9dff00cd; 
   padding: 20px;
   border-radius: 10px; 
   background-image: url('./Assets/profile-info-background.jpg');
@@ -224,7 +224,7 @@ body {
   display: inline-block;
   font-family: 'Courier New', Courier, monospace;
   background-color: #2b334a;
-  color: yellow;
+  color: #9dff00cd;
   padding: 8px 16px;
   text-decoration: none;
   border-radius: 5px;
@@ -233,7 +233,7 @@ body {
 
 .project-box a:hover {
   transform: scale(1.05);
-  box-shadow: 0px 2px 2px rgba(245, 253, 1, 0.473);
+  box-shadow: 0px 2px 2px #9dff00cd;
   border: 1.5px solid white;
 }
 body {
@@ -257,7 +257,7 @@ body {
   text-align: center;
   margin-bottom: 40px;
   flex-basis: 100%;
-  border: 2px solid #FFD700; 
+  border: 2px solid #9dff00cd; 
   padding: 20px;
   border-radius: 10px; 
   background-image: url('./Assets/profile-info-background.jpg');
@@ -277,7 +277,7 @@ body {
 }
 
 .profile-info h3 {
-  color: #FFD700;
+  color: #9dff00cd;
   line-height: 1.5;
   text-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
 }
@@ -339,14 +339,14 @@ body {
 .sections-right > div:hover {
   transform: scale(1.01);
   border: 2px solid #929292;
-  box-shadow: 0px 8px 8px rgba(245, 253, 1, 0.473);
+  box-shadow: 0px 8px 8px #9dff00cd;
 }
 
 .sections-left h2, .sections-right h2 {
   font-size: 24px;
   margin-bottom: 20px;
   font-family: 'Roboto Mono', monospace;
-  color: #FFD700;
+  color: #9dff00cd;
 }
 
 .sections-left h3, .sections-right h3 {
@@ -375,14 +375,14 @@ body {
   background-color: #2b334a;
   padding: 5px 12px;
   border-radius: 5px;
-  color: #FFD700;
+  color: #9dff00cd;
   font-weight: bold;
   transition: transform 0.5s ease;
 }
 
 .sections-left li:hover, .sections-right li:hover {
   transform: scale(1.05);
-  box-shadow: 0px 2px 2px rgba(245, 253, 1, 0.473);
+  box-shadow: 0px 2px 2px #9dff00cd;
   border: 1px solid #929292;
 }
 
@@ -398,7 +398,7 @@ body {
   text-align: center;
   margin-bottom: 40px;
   flex-basis: 100%;
-  border: 2px solid #FFD700; 
+  border: 2px solid #9dff00cd; 
   padding: 20px;
   border-radius: 10px; 
   background-size: contain;
@@ -422,7 +422,7 @@ body {
   border-radius: 5px;
   font-size: 20px;
   margin-bottom: 20px;
-  border-color: #FFD700;
+  border-color: #9dff00cd;
 }
 
 .intro-box:hover {
@@ -455,7 +455,7 @@ body {
 .project-box:hover {
   transform: scale(1.01);
   border: 3px solid rgb(199, 199, 199);
-  box-shadow: 0px 8px 8px rgba(245, 253, 1, 0.473);
+  box-shadow: 0px 8px 8px #9dff00cd;
 }
 
 .project-list {
@@ -468,7 +468,7 @@ body {
 }
 
 .project-list h3 {
-  color: #FFD700;
+  color: #9dff00cd;
   line-height: 1.5;
   font-size: 15;
   font-family: 'Roboto Mono', monospace;
@@ -485,7 +485,7 @@ body {
   display: inline-block;
   font-family: 'Courier New', Courier, monospace;
   background-color: #2b334a;
-  color:  #FFD700;
+  color:  #9dff00cd;
   padding: 8px 16px;
   font-weight: bold;
   text-decoration: none;
@@ -495,6 +495,6 @@ body {
 
 .project-list a:hover {
   transform: scale(1.05);
-  box-shadow: 0px 2px 2px rgba(245, 253, 1, 0.473);
+  box-shadow: 0px 2px 2px #9dff00cd;
   border: 1.5px solid white;
 }

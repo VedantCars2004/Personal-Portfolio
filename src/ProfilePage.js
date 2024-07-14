@@ -39,11 +39,8 @@ const ProfilePage = () => {
             <div className='profile-info'>
                 <h1>Vedant Gohel</h1>
                 <h3>Computer Science Student at University of Illinois at Urbana Champaign</h3>
-                <h4>I am an aspiring freshman in Computer Science and Geographic Information Sciences at the University
-                    of Illinois at Urbana Champaign, and a Dean's List recipient. I aspire to design software and use relevant knowledge and skills to
-                    make a positive impact on communities. I am proficient in Java, C++, Python, SQL, React, HTML, and CSS.
-                    I'm involved on campus as a Course Assistant for CS124, a member of Association for Information Systems (AIS),
-                    and a member of ACM SIGMA (Math and Algorithms).
+                <h4>I am an aspiring sophomore in Computer Science and Geographic Information Science at the University of Illinois at Urbana Champaign. I aspire to design software and use relevant knowledge and skills to make an impactful contribution to communities, solve problems, and effectively automate tasks. I aim to delve deeper into the field of Artificial Intelligence and Machine Learning through an AI & Software Engineering Fellowship at Headstarter AI, advanced classes at UIUC, and projects such as a web scraping chatbot and stock price prediction using a recurrent neural network.
+On campus, I am involved as a member of Association for Information Systems (AIS)- where I participated in Python Bootcamps, enhancing programming skills and engaging in leadership practice and personal development activities. Additionally, I am part of ACM SIGMA (Math and Algorithms) where I participated in sessions focused on math and algorithm concepts, relating them to computer science and delving into program runtimes and mathematical functions.
                 </h4>
                 <br />
                 <div className='social-links'>
@@ -72,6 +69,13 @@ const ProfilePage = () => {
                 </div>
                 <div className='experience'>
                     <h2>Work Experience</h2>
+                    <h3>Software Engineering Fellow @ Headstarter AI</h3>
+                    <ul><li>July 2024- September 2024</li></ul>
+                    <p>Building 5+ AI apps and APIs using NextJS, OpenAI, Pinecone, StripeAPI with 98% accuracy as seen by 1000 users. 
+Developing projects from design to deployment leading 4+ engineering fellows using MVC design patterns. 
+Coaching by Amazon, Bloomberg, and Capital One engineers on Agile, CI/CD, Git, and microservice patterns.
+                    </p>
+                    <br />
                     <h3>Prompt Engineer & Beta Tester- University of Illinois</h3>
                     <ul><li>June 2024- Present</li></ul>
                     <p>Designing and refining AI prompts to understand the app’s capabilities, improving user interaction. Performing comprehensive testing and documenting prompt engineering results to ensure high accuracy and reliability of AI responses and to provide valuable insights for future response development. 
@@ -130,6 +134,8 @@ const ProfilePage = () => {
                         <li>Linear Algebra & Matrix Theory</li>
                         <li>Statistics and Probability- CS</li>
                         <li>Data Structures & OOP</li>
+                        <li>Computer Systems</li>
+                        <li>Software Design Lab</li>
                     </ul>
                 </div>
             </div>
